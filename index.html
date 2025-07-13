@@ -9,18 +9,27 @@
 </head>
 <body>
 
-  <header>
-    <nav>
-      <div class="logo">Sharath</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+ <header>
+  <nav>
+    <div class="logo">Sharath</div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./project.html">Projects</a></li>
+      <li><a href="./skills.html">Skills</a></li>
+      <li><a href="./Sharath R[RESUME].pdf">Resume</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Link the JS file -->
+<script src="script.js"></script>
+
 
   <section class="hero">
     <div class="hero-content">
@@ -61,9 +70,6 @@
       <li>Python</li>
       <li>Flutter</li>
       <li>Firebase</li>
-      <li>Java</li>
-       <li>Devops</li>
-       <li>Cloud computing</li>
       <li>Docker & WSL</li>
       <li>AI/ML (YOLOv5, YOLOv10)</li>
     </ul>
