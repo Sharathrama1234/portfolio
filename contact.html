@@ -26,6 +26,7 @@
       justify-content: center;
       gap: 40px;
       flex-wrap: wrap;
+      padding: 20px;
     }
     .card {
       background: white;
@@ -42,11 +43,12 @@
       font-size: 50px;
       margin-bottom: 15px;
     }
-    a {
+    a, p.contact-info {
       text-decoration: none;
       color: #0072ff;
       font-size: 18px;
       font-weight: bold;
+      word-break: break-all;
     }
     footer {
       margin-top: 60px;
@@ -60,7 +62,7 @@
 
   <header>
     <h1>Contact Me</h1>
-    <p>Connect with me on GitHub or LinkedIn</p>
+    <p>Connect with me on GitHub, LinkedIn, or reach me directly</p>
   </header>
 
   <div class="container">
@@ -68,9 +70,20 @@
       <div class="icon">🐱‍💻</div>
       <a href="https://github.com/Sharathrama1234" target="_blank">GitHub Profile</a>
     </div>
+
     <div class="card">
       <div class="icon">💼</div>
       <a href="https://www.linkedin.com/in/sharath-rama-baidinmane-119b57284" target="_blank">LinkedIn Profile</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📧</div>
+      <p class="contact-info">sharathramabaidinmane@gmail.com</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📱</div>
+      <p class="contact-info">+91 8971659028</p>
     </div>
   </div>
 
